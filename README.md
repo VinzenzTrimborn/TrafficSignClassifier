@@ -157,20 +157,20 @@ The model was able to correctly guess 3 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. 
 
-[image9]
+![alt text][image9]
 
 For the first image, the model is relatively unsure. As you can see, it not even considers the 120 km/h sign to be under the top 5. However the top 2 options are speed limits which is correct.
 
-[alt text][image10]
+![alt text][image10]
 For the second image, the model is relatively unsure, as well. As you can see it is sure that its a speed limit but it is not able to identify which one. 
 
-[alt text][image11]
+![alt text][image11]
 Here the sign is correct. As you can see the CNN is very sure about it.
 
-[alt text][image12]
+![alt text][image12]
 The "Turn right ahead" sign is correct as well.
 
-[alt text][image13]
+![alt text][image13]
 The stop sign was not so easy to identify. The propablitiy for a speed limit is high as well. The reason for this might be that there is a huge number of speed limits in the training set and not as many stop signs.
 
 
