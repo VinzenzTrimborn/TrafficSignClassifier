@@ -157,7 +157,7 @@ The model was able to correctly guess 3 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. 
 
-[alt text][image9]
+[image9]
 
 For the first image, the model is relatively unsure. As you can see, it not even considers the 120 km/h sign to be under the top 5. However the top 2 options are speed limits which is correct.
 
